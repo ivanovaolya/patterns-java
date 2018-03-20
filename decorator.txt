@@ -1,0 +1,2 @@
+Hello! Test example
+I'll change all THE symbols to LOWERCAse
