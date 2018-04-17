@@ -1,5 +1,6 @@
 package patterns.behavioral.iterator;
 
+import patterns.behavioral.iterator.menu.BurgerMenu;
 import patterns.behavioral.iterator.menu.DinerMenu;
 import patterns.behavioral.iterator.menu.PancakeMenu;
 
@@ -13,5 +14,9 @@ public class Main {
         final Waitress waitress = new Waitress(new PancakeMenu(), new DinerMenu());
 
         waitress.printMenu();
+
+        final Waiter waiter = new Waiter(new BurgerMenu());
+
+        waiter.printMenu();
     }
 }
